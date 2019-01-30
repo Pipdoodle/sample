@@ -2,26 +2,70 @@
 
 <html lang= "en">
 
-.nav-bar {
-width: 100%;
-height: 50px;
-margin: 0;
-background: black; }
-.nav-bar > .element {
-width: 19.5%;
-line-height: 50px;
-text-align: center;
-color: white;
-display: inline-block;
-margin: 0;
-font-family: Arial;
-text-decoration: none; }
+
 <head>
 	<meta charset="utf-8">
-<title> Insert title here </title>
+	<title> Insert title here </title>
+	
 </head>
 <body>
-	<img src="assets/dragon.jpg">
-	<p> Insert body here </p>
+	<style type="text/css">
+		
+		body {
+			margin: 0;
+		}
+
+		/* NAV BAR */
+
+		.nav-bar {
+			width: 100%;
+			height: 50px;
+			margin: 0;
+			background: black;
+
+			/* Toggle between static and sticky */
+
+			/*position: sticky;
+			top: 0; */
+		}
+
+		.nav-bar > .element {
+			width: 19.5%;
+			line-height: 50px;
+			text-align: center;
+			color: white;
+			display: inline-block;
+			margin: 0;
+			font-family: Arial;
+			text-decoration: none;
+		}
+
+		.nav-bar > .element:hover { 
+  			text-decoration: underline;
+		}	
+
+
+		/* BODY */
+
+		.content {
+			width: 80%;
+			margin-left: 10%;
+		}
+
+	</style>
+
+	<div class="nav-bar">
+		<a href="https://pipdoodle.github.io/website/assets/files/about.html" class = "element">About Me </a>
+		<a href="https://pipdoodle.github.io/website/assets/files/art.html" class = "element">  Art </a>
+		<a href="https://pipdoodle.github.io/website/assets/files/writing.html" class="element"> Writing </a>
+		<a href="https://pipdoodle.github.io/website/assets/files/projects.html" class="element"> Projects</a>
+		<a href="https://pipdoodle.github.io/website/assets/files/blog.html" class="element"> Blog </a>
+		<a href="https://pipdoodle.github.io/website/assets/files/contact.html"class="element"> Contact Me </a>
+	</div>
+
+	
+	<div class = "content">
+		<p> Insert body here </p>
+	</div>
 </body>
 </html>
