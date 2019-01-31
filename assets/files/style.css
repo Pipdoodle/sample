@@ -3,36 +3,59 @@
 	src:url(font/DS_Mysticora.ttf);
 }
 
+.headers {
+	position: relative;
+
+}
+
 .logoHomeButton{
-width:10%;
-height: auto;
+width:10vw;
+height: 12vh;
 margin-right:1px;
 position: relative;
 float: left;
 }
+
 .logoHomeButton img{
 	width: 10vw;
-	height: 10vw;
+	height: 12vh;
 }
 
+.nav-comp{
+	position:relative;
+	height:10vw;
+	width:80%;
+	margin: 0px;
+	float:left;
+}
+
+.nav-comp p {
+	font-weight: bold;
+	font-family: DS_mysticora;
+	height:5vh;
+	font-size:4vh;
+	position:relative;
+	margin: 0px;
+}
+
+
 .nav-bar {
-width: 85%;
-height: 50px;
+height: 5vh;
 position:relative;
-margin-top: 6vw;
-margin-bottom: 1vw;
-float:left;
+margin-bottom: 1px;
 background: black; 
-border-radius: 15px}
+border-radius: 15px
+}
 
 .nav-bar > .element {
 width: 15%;
-line-height: 50px;
 text-align: center;
 color: white;
 display: inline-block;
 margin: 0;
 font-family: DS_Mysticora;
+font-size: 4vh;
+text-align: center;
 text-decoration: none; }
 
 
