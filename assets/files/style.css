@@ -73,6 +73,7 @@ text-decoration: none; }
 
 .info {
 	padding: 10px;
+	font-family: DS_Mysticora;
 }
 
 @media screen and (max-width: 900px) {
