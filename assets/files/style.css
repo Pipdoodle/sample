@@ -1,18 +1,39 @@
+@font-face {
+	font-family: DS_mysticora;
+	src:url(font/DS_Mysticora.ttf);
+}
+
+.logoHomeButton{
+width:20%;
+height: 20%;
+padding-right:5%;
+position:relative;
+float:left;
+}
+.logoHomeButton img{
+	width: auto;
+	height:auto;
+}
+
 .nav-bar {
-width: 80%;
+width: 70%;
 height: 50px;
-margin: 50;
-background: black; }
+position:relative;
+float:left;
+background: black; 
+border-radius: 15px}
 
 .nav-bar > .element {
-width: 19%;
+width: 15%;
 line-height: 50px;
 text-align: center;
 color: white;
 display: inline-block;
 margin: 0;
-font-family: Arial;
+font-family: DS_Mysticora;
 text-decoration: none; }
+
+
 
 .nav-bar > .element:hover {
 	text-decoration: underline;
@@ -21,4 +42,7 @@ text-decoration: none; }
 .content {
 	width:80%;
 	margin-left:10%;
+	font-family: DS_Mysticora;
 }
+
+
