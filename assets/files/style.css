@@ -45,4 +45,47 @@ text-decoration: none; }
 	font-family: DS_Mysticora;
 }
 
+.gallery{
+	max-width:1000px;
+	margin: auto;
+}
+
+.row {
+	margin: 4px - 8px;
+}
+
+.row, .row>.column{
+	padding: 8px;
+}
+
+.column {
+	float: left;
+	width: 20%;
+	height: 20%;
+}
+
+.row: after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.info {
+	padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+	.column{
+		width:33%;
+		height:20%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column{
+		width:50%;
+		height:20%;
+	}
+}
+
 
