@@ -1,0 +1,35 @@
+.popUp{
+	
+}
+.content{
+
+}
+.gallery{
+	max-width:90%;
+	font-family: DS_Mysticora;
+	margin-left:5%;
+	height: auto;
+	position:relative;
+	float:left;
+}
+.gallery h1{
+	margin:0px;
+	font-size: 50px;
+
+}
+.artpost{
+	float:left;
+	width: 200px;
+	height: 200px
+}
+
+.artpost img{
+	width: 90%;
+	height:70%;
+	margin-bottom:0px;
+}
+.artpost p{
+	font-size:35px;
+	margin:0px;
+	font-weight:bold;
+}

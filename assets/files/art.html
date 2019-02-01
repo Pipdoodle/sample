@@ -7,9 +7,15 @@
 	<meta charset="utf-8">
 	<title> Artwork </title>
 	<link rel = "stylesheet" type = "text/css" href="style.css">
+	<link rel = "stylesheet" type = "text/css" href="gallery.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		window.Jquery || document.write("<script src='jquery-3.3.1.min.js'><script>")
+	</script>
+	<script src="galleryScript.js"></script>
 </head>
 <body style= "background-color: Seashell">
-		<div class=headers>
+		<div class="headers">
 			<div class = "logoHomeButton">
 				<a href="../../index.html">
 				<img 
@@ -17,7 +23,7 @@
 				</a>
 			</div>
 			<div class = "nav-comp">
-				<p> Pip Doodle Land</p>
+				<p> Pip's Land of Doodles</p>
 				<div class="nav-bar">
 					<a href="about.html" class = "element">About</a>
 					<a href="art.html" class = "element">  Art </a>
@@ -30,53 +36,271 @@
 	</div>
 	
 	<div class = "gallery">
-		<h2> WaterColor Gallery </h2>
-		<div class = "row">
-			<div class = "column">
-				<div class = "info">
-					<img src = "artwork/eyeBip.jpg" style = "width:100%; height: 100%" >
-					<h3> Eyes</h3>
-					<p> A look into the war of emotions between sanity and madness. </p>
-				</div>
-			</div>
-			<div class = "column">
-				<div class = "info">
-					<img src = "artwork/dragon.jpg" style = "width:100%; height: 100%">
-					<h3> Dragon </h3>
-					<p> The master of the seas.</p>
-				</div>
-			</div>
-			<div class = "column">
-				<div class = "info">
-					<img src = "artwork/bull.jpg" style = "width:100%; height: 100%">
-					<h3> Bull </h3>
-					<p> Party bull fleeting yet permanent</p>
-				</div>
-			</div>
-			<div class = "column">
-				<div class = "info">
-					<img src = "artwork/person.jpg" style = "width:100%; height: 100%">
-					<h3> Dancers </h3>
-					<p> Dancers.</p>
-				</div>
-			</div>
-			<div class = "column">
-				<div class = "info">
-					<img src = "artwork/birdblue.jpg" style = "width:100%;height:100%">
-					<h3> BlueBird </h3>
-					<p> Small fat birb.  </p>
-				</div>
-			</div>
-			<div class = "column">
-				<div class = "info">
-					<img src = "artwork/night.jpg" style = "width:100%; height: 100%">
-					<h3> Dancing Across Ice </h3>
-					<p> An intimiate night of dancing beneath a peaceful night sky. </p>
-				</div>
-			</div>
-
+		<h1>Watercolor Gallery</h1>
+		<div class = "artpost">
+			<img src = "artwork/dragon.jpg">
+			<p> Dragon </p>
 		</div>
-		
+
+		<div class = "artpost">
+			<img src = "artwork/birdblue.jpg">
+			<p> Blue Birb </p>
+		</div>
+
+		<div class = "artpost">
+			<img src = "artwork/bull.jpg">
+			<p> Bull </p>
+		</div>
+
+		<div class = "artpost">
+			<img src = "artwork/eyeBip.jpg">
+			<p> Madness or Sanity </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/galaxyeye.jpg">
+			<p> Look into Galaxies </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/night.jpg">
+			<p> Dancing Night </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/person.jpg">
+			<p> Fiery Dance </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/winterWonder.jpg">
+			<p> Winter Roadside </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/treePen.jpg">
+			<p> Farmer's Tree </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/seaSlug.jpg">
+			<p> Sea Slug </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/bookmarks.jpg">
+			<p> 3 Scenes </p>
+		</div>		
+
+
+		<div class = "artpost">
+			<img src = "artwork/dragonfly.jpg">
+			<p> Dragonfly </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/blueTree.jpg">
+			<p> Blue Trees </p>
+		</div>	
+
+		<div class = "artpost">
+			<img src = "artwork/rocks.jpg">
+			<p> Waves upon Rocks </p>
+		</div>	
+
+		<div class = "artpost">
+			<img src = "artwork/treesunset.jpg">
+			<p> Sunset Tree </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/phoenix.jpg">
+			<p> Phoenix </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/horses.jpg">
+			<p> Horse </p>
+		</div>	
+
+		<div class = "artpost">
+			<img src = "artwork/eyeorig.jpg">
+			<p> Eye </p>
+		</div>			
+
+		<div class = "artpost">
+			<img src = "artwork/hummingbird.jpg">
+			<p> Hummingbird </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/killerwhale.jpg">
+			<p> Killer Whale </p>
+		</div>	
+
+		<div class = "artpost">
+			<img src = "artwork/MountainSunset.jpg">
+			<p> Sunset Over Mountains </p>
+		</div>				
+
+		<div class = "artpost">
+			<img src = "artwork/DragonMountain.jpg">
+			<p> Dragons in the Sky </p>
+		</div>	
+
+		<div class = "artpost">
+			<img src = "artwork/lotusFlower.jpg">
+			<p> Lotus </p>
+		</div>			
+
+		<div class = "artpost">
+			<img src = "artwork/fish.jpg">
+			<p> Dory </p>
+		</div>			
+
+		<div class = "artpost">
+			<img src = "artwork/turtle.jpg">
+			<p> Sea Turtle </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/flower.jpg">
+			<p> Flower </p>
+		</div>	
+
+		<div class = "artpost">
+			<img src = "artwork/dogbear.jpg">
+			<p> Dog Bear </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/fishKoi.jpg">
+			<p> Koi </p>
+		</div>			
+
+		<div class = "artpost">
+			<img src = "artwork/Orchid.jpg">
+			<p> Orchid </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/rose.jpg">
+			<p> Rose </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/roseLight.jpg">
+			<p> Light Rose </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/hellscape.jpg">
+			<p> Hellscape </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/butterfly.jpg">
+			<p> Butterfly </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/swanLake.jpg">
+			<p> Swan Lake </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/deer.jpg">
+			<p> Deer </p>
+		</div>		
+
 	</div>
+
+<div class = "gallery">
+		<h1>Sketch Gallery</h1>
+		<div class = "artpost">
+			<img src = "artwork/drago.jpg">
+			<p> Drago Draft </p>
+		</div>
+
+		<div class = "artpost">
+			<img src = "artwork/roseSketch.jpg">
+			<p> Rose Sketch </p>
+		</div>
+
+		<div class = "artpost">
+			<img src = "artwork/roseTotal.jpg">
+			<p> Rose Sketch 2 </p>
+		</div>
+
+		<div class = "artpost">
+			<img src = "artwork/lightbulb.jpg">
+			<p> Enlightment </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/eyeStrawberry.jpg">
+			<p> Strawberries </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/waterbottle.jpg">
+			<p> Water Bottle </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/cmulogo.jpg">
+			<p> Logo </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/quicksketch.png">
+			<p> Random Sketch </p>
+		</div>
+
+
+		<div class = "artpost">
+			<img src = "artwork/eyes.png">
+			<p> Eyes Sketch </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/castle.png">
+			<p> 5 second Castle </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/fruit.png">
+			<p> 1 minute fruit </p>
+		</div>		
+
+
+		<div class = "artpost">
+			<img src = "artwork/dog.png">
+			<p> Doggo </p>
+		</div>		
+
+		<div class = "artpost">
+			<img src = "artwork/person.png">
+			<p> 1 minute person </p>
+		</div>	
+
+
+		<div class = "artpost">
+			<img src = "artwork/giraffe.jpg">
+			<p> Giraffe </p>
+		</div>			
+
+
+	</div>
+
 </body>
 </html>
