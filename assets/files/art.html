@@ -14,6 +14,7 @@
 	</script>
 	<script src="galleryScript.js"></script>
 </head>
+
 <body style= "background-color: Seashell">
 		<div class="headers">
 			<div class = "logoHomeButton">
@@ -33,16 +34,21 @@
 					<a href="contact.html"class="element"> Contact</a>
 				</div>
 			</div>
+		</div>
+	<div class = "popUp"; id = pop>
+		
 	</div>
-	
+
 	<div class = "gallery">
 		<h1>Watercolor Gallery</h1>
-		<div class = "artpost">
-			<img src = "artwork/dragon.jpg">
+		<div class = "artpost", onclick= "reveal()">
+			<span class = "popup" id = "dragonPop">
+				<img src = "artwork/dragon.jpg">
+			</span>
 			<p> Dragon </p>
 		</div>
 
-		<div class = "artpost">
+		<div class = "artpost", id = "Blue Bird">
 			<img src = "artwork/birdblue.jpg">
 			<p> Blue Birb </p>
 		</div>
