@@ -95,7 +95,7 @@ text-decoration: none; }
 	width:70%;
 	font-family: DS_Mysticora;
 	float:left;
-	border-color:solid black;
+	border-color: black;
 	/*background-image:url(artwork/border1.png);
 	background-repeat: no-repeat;
 	background-size: 80%,200%;*/
@@ -105,6 +105,37 @@ text-decoration: none; }
 	height: 100px;
 }
 
+.wFicPost{
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+	padding:10px;
+	height:100px;
+	font-family: DS_Mysticora;
+	float:left;
+	margin-top: 25px;
+	margin-bottom:25px;
+	border-color: #e69900;
+	background-color:#ffdd99;
+	border-radius: 15px;
+	border-width:2px; 
+	
+}
+
+.wFicPost img{
+	width: 100px;
+	height:100px;
+	float:left;
+
+}
+.Title{
+	width:90%;
+	float:left;
+}
+
+.text{
+	float:left;
+}
 
 
 .row {
