@@ -9,11 +9,35 @@ var span = document.getElementsByClassName("close")[0];
 
 var windowOpen = 0;
 
+function load() {
+	$.get('text/WhiteLinen.txt', function(data){
+		newWindow.innerHTML = data;
+	});
+	/*console.log("Open")
+    var file = new XMLHttpRequest();
+    file.open("GET", "text/WhiteLinen.txt", true);
+    file.onreadystatechange = function() {
+      if (file.readyState === 4) { 
+      console.log("good")
+ // Makes sure the document is ready to parse
+        if (file.status === 200) { 
+        console.log ("good2") // Makes sure it's found the file
+          text = file.responseText;
+          newWindow.innerHTML = text;
+          console.log(text)
+        }
+      }
+    }*/
+
+}
+
+
+
 // When the user clicks on the button, open the modal 
+
 btn.onclick = function() {
   newWindow.style.display = "block";
-  newWindow.innerHTML = "<p>  \n \n \n \n \n \n HI I AM HERE </p>"
-  console.log(newWindow.style.display);
+  load();
   windowOpen=windowOpen+1;
 }
 
@@ -30,17 +54,16 @@ window.onclick = function(event)
 	{
 		windowOpen=windowOpen+1;
 	}
-	
-	console.log(windowOpen);
 	if (windowOpen>2)
 	{
-		console.log("Hi")
 		windowOpen=0
 		newWindow.style.display = "none";
 	}
-	
 	if (event.target == newWindow)
 	{
 		newWindow.style.display = "none";
 	}
 }
+
+
+
