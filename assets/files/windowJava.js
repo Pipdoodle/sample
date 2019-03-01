@@ -12,6 +12,7 @@ var windowOpen = 0;
 function load() {
 	$.get('text/WhiteLinen.txt', function(data){
 		newWindow.innerHTML = data;
+		console.log(data);
 	});
 	/*console.log("Open")
     var file = new XMLHttpRequest();
