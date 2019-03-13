@@ -3,6 +3,7 @@ var newWindow = document.getElementById("storyWindow");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
+var btn2 = document.getElementById("myBtn2");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -14,21 +15,6 @@ function load() {
 		newWindow.innerHTML = data;
 		console.log(data);
 	});
-	/*console.log("Open")
-    var file = new XMLHttpRequest();
-    file.open("GET", "text/WhiteLinen.txt", true);
-    file.onreadystatechange = function() {
-      if (file.readyState === 4) { 
-      console.log("good")
- // Makes sure the document is ready to parse
-        if (file.status === 200) { 
-        console.log ("good2") // Makes sure it's found the file
-          text = file.responseText;
-          newWindow.innerHTML = text;
-          console.log(text)
-        }
-      }
-    }*/
 
 }
 
