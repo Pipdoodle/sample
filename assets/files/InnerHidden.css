@@ -1,0 +1,22 @@
+parallax-img{
+	position: relative
+	background-attachment: fixed;
+	background-position: center
+	backgorund- repeat: no-repeat;
+	background-size: cover; 
+}
+
+.player {
+z-index: 1;
+}
+
+.line{
+	widht: 0px;
+	height:1px;
+	background :white;
+}
+
+.button:hover > .line{
+	width:200px;
+	transition: all 0.25s;
+}

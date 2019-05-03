@@ -25,4 +25,82 @@
 	width: 300px;
 	height:400px;
 }
+
+
+.mask {
+	position:relative;
+	margin:auto;
+	width: 0%;
+	height:150px;
+	top: 250px;
+	left: 180px;
+	overflow: hidden;
+	-webkit-transition: width 5s; /* For Safari 3.1 to 6.0 */
+    transition: width 5s;
+}
+
+.mask p{
+	font-size: 70px;
+	font-family: DS_mysticora;
+	color: navy;
+	text-shadow: 1px 1px 1px red, 0 0 .9em blue, 0 0 0.1em blue;
+}
+
+.enter{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:100px;
+	top: 310px;
+	left: 350px;
+	overflow: hidden;
+	opacity: 100;
+
+}
+
+.enter >.element {
+	font-size:50px;
+	font-family: DS_mysticora;
+	text-shadow: 1px 1px 1px red, 0 0 .9em blue, 0 0 0.1em blue;
+	text-decoration: none;
+
+}
+
+
+.centered:hover .mask{
+	width: 10%;
+}
+
+.backNew {
+	width: 800px;
+	height:800px;
+    background: url("assets/files/artwork/logoIcon.png") center center;
+ 	background-size: cover;
+ 	transition: all 3s linear;
+  	clip-path: circle(100px);
+  	align-items: center;
+  	justify-content: center;
+}
+
+.backNav:hover .enter{
+	opacity: 100;
+}
+
+.backNew:hover {
+	clip-path: circle(1000px);
+}
+
+.backNew:hover .mask{
+	transition-delay:2s;
+	width: 100%;
+}
+
+
+
+/* Center the demo */
+html, body { height: 100%; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
